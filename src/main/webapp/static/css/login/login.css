@@ -1,0 +1,14 @@
+.backImg{
+    background-image: url('/static/img/login_img.png');
+    width: 100%;
+    height: 100%
+}
+
+.xPadding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.yPadding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
