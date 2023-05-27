@@ -18,15 +18,15 @@
 <body>
 <div class="backImg">
     <div class="layui-row">
-        <div class="layui-col-md4">
+        <div class="layui-col-md4 layui-col-lg-offset6" style="margin-top: 20%">
 
 
-            <fieldset class="layui-elem-field ">
-                <legend style="color: white;">Welcome to Property APU</legend>
+            <fieldset class="layui-elem-field" style="border-radius: 5px">
+                <legend style="color: white;">Welcome to Property APU System</legend>
 
                 <div class="layui-row" style="background: #e2e2e2;">
-                    <img src="static/img/logo.png" alt="" style="margin-left: 35%">
-                    <div class="layui-form yPadding">
+                    <img src="static/img/logo.png"  class="layui-col-md3 layui-col-md-offset4">
+                    <form  action="/login.action" method="post" class="layui-form yPadding">
                         <div class="layui-form-item xPadding">
 
                             <input type="text" name="username" lay-verify="required" lay-reqtext="can not empty"
@@ -40,7 +40,7 @@
                         </div>
                         <div class="layui-row">
                             <div class="layui-col-md4 layui-col-md-offset1">
-                                <button type="submit"
+                                <button type="button"
                                         class="layui-btn layui-btn-primary layui-border-black layui-btn-xs"
                                         lay-submit="" lay-filter="demo1">I forget my password
                                 </button>
@@ -49,7 +49,7 @@
                             <div class="layui-col-md7">
                                 <div class="layui-row">
                                     <div class="layui-col-md5 layui-col-md-offset1">
-                                        <button type="submit" class="layui-btn layui-btn-radius" lay-submit=""
+                                        <button type="button" class="layui-btn layui-btn-radius" lay-submit=""
                                                 lay-filter="demo1">Sign up
                                         </button>
 
@@ -66,7 +66,7 @@
 
                         </div>
 
-                    </div>
+                    </form>
                 </div>
 
             </fieldset>
